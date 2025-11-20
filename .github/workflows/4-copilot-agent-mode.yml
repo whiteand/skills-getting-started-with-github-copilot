@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - "accelerate-with-copilot"
+  workflow_dispatch:
 
 permissions:
   contents: read
