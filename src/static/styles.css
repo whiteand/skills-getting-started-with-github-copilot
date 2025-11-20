@@ -195,6 +195,22 @@ footer {
   word-break: break-all;
 }
 
+.remove-btn {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #888;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.remove-btn:hover {
+  color: #c62828;
+  background-color: rgba(198, 40, 40, 0.06);
+}
+
 .no-participants {
   color: #666;
   font-style: italic;
