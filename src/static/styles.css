@@ -142,3 +142,61 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Added participants styling */
+.participants-section {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #eee;
+}
+
+.participants-section h5 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.participants-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #ffffff, #fbfbff);
+  border: 1px solid #f0f0f5;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.02);
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #1a237e;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 13px;
+  flex: 0 0 36px;
+}
+
+.participant-name {
+  color: #222;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.no-participants {
+  color: #666;
+  font-style: italic;
+  padding: 6px 0;
+}
